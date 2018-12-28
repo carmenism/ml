@@ -1,0 +1,174 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.OneR -B 6
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R60-65-weka.filters.unsupervised.attribute.Remove-R35-38
+Instances:    70
+Attributes:   56
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              Graduated with CS Degree
+Test mode:70-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Exam Min:
+	< 0.8917525	-> NO
+	>= 0.8917525	-> YES
+(58/70 instances correct)
+
+
+Time taken to build model: 0.02 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES      1:YES         *1      0      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES      1:YES         *1      0      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1      1:YES       2:NO      +   0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO      1:YES      +  *1      0      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+     1       2:NO       2:NO          0     *1      0    
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          55               78.5714 %
+Incorrectly Classified Instances        15               21.4286 %
+Kappa statistic                          0.1491
+Mean absolute error                      0.1429
+Root mean squared error                  0.378 
+Relative absolute error                 57.8158 %
+Root relative squared error            108.6478 %
+Total Number of Instances               70     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.125     0.019      0.667     0.125     0.211      0.553    YES
+                 0.981     0.875      0.791     0.981     0.876      0.553    NO
+                 0         0          0         0         0          ?        NA
+Weighted Avg.    0.786     0.679      0.763     0.786     0.724      0.553
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  2 14  0 |  a = YES
+  1 53  0 |  b = NO
+  0  0  0 |  c = NA

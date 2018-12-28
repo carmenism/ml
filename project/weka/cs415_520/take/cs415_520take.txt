@@ -1,0 +1,391 @@
+Take 520
+
+*********************************************************************************************
+
+Evaluation mode:evaluate on all training data
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 391
+	Merit of best subset found:    0.221
+
+Attribute Subset Evaluator (supervised, Class (nominal): 44 Took 520_1):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 5,27,32,34,35 : 5
+                     Q % below 70%
+                     OLE Min
+                     Male_1
+                     CS Major_1
+                     ECE major_1
+
+*********************************************************************************************
+
+Evaluation mode:119-fold cross-validation
+
+=== Attribute selection 119 fold cross-validation (stratified), seed: 1 ===
+
+number of folds (%)  attribute
+           2(  2 %)     1 Q Avg
+           0(  0 %)     2 Q Min
+           1(  1 %)     3 Q Max
+           0(  0 %)     4 Q % Zeros
+         118( 99 %)     5 Q % below 70%
+           0(  0 %)     6 P Avg
+           0(  0 %)     7 P Min
+           0(  0 %)     8 P Max
+           0(  0 %)     9 P % Zeros
+           0(  0 %)    10 P % below 70%
+           0(  0 %)    11 PRE Avg
+           0(  0 %)    12 PRE Min
+           0(  0 %)    13 PRE Max
+           0(  0 %)    14 PRE % Zeros
+           0(  0 %)    15 PRE % below 70%
+           0(  0 %)    16 L Avg
+           0(  0 %)    17 L Min
+           0(  0 %)    18 L Max
+           0(  0 %)    19 L % Zeros
+           0(  0 %)    20 L % below 70%
+           0(  0 %)    21 R Avg
+           0(  0 %)    22 R Min
+           0(  0 %)    23 R Max
+           0(  0 %)    24 R % Zeros
+           0(  0 %)    25 R % below 70%
+           0(  0 %)    26 OLE Avg
+         119(100 %)    27 OLE Min
+           1(  1 %)    28 OLE Max
+           0(  0 %)    29 Exam Avg
+           1(  1 %)    30 Exam Min
+           0(  0 %)    31 Exam Max
+         119(100 %)    32 Male_1
+           0(  0 %)    33 Female_1
+         118( 99 %)    34 CS Major_1
+         119(100 %)    35 ECE major_1
+           0(  0 %)    36 Standing
+           2(  2 %)    37 Math Class
+           0(  0 %)    38 415 Final Grade
+           0(  0 %)    39 Q Diff
+           0(  0 %)    40 P Diff
+           0(  0 %)    41 L Diff
+           0(  0 %)    42 R Diff
+           0(  0 %)    43 Semester
+
+*********************************************************************************************
+
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                     Class
+Variable                                      '(-inf-0.5]'
+==========================================================
+Q Avg                                           -3229.8339
+Q Min                                             471.5594
+Q Max                                            1997.8307
+Q % Zeros                                        2029.0591
+Q % below 70%                                      76.0138
+P Avg                                           -4026.5249
+P Min                                             -15.4094
+P Max                                            6118.0509
+P % Zeros                                         286.9261
+P % below 70%                                    -542.4714
+PRE Avg                                          -433.9797
+PRE Min                                          -170.8151
+PRE Max                                           -97.8699
+PRE % Zeros                                      -300.4233
+PRE % below 70%                                  -372.9784
+L Avg                                           -3283.0373
+L Min                                              30.0526
+L Max                                            2028.3228
+L % Zeros                                        -923.3695
+L % below 70%                                   -2503.0424
+R Avg                                             917.7286
+R Min                                             -52.3971
+R % Zeros                                        2378.0093
+R % below 70%                                   -1363.3883
+OLE Avg                                          3294.4879
+OLE Min                                         -1203.0305
+OLE Max                                          -2483.364
+Exam Avg                                         -449.8467
+Exam Min                                         -868.3642
+Exam Max                                          701.2994
+Male_1                                           -555.1701
+Female_1                                         -308.3516
+CS Major_1                                        -22.4897
+ECE major_1                                       507.2527
+Standing='(-inf-0.8]'                             -52.3896
+Standing='(0.8-1.6]'                               39.0146
+Standing='(1.6-2.4]'                               90.1146
+Standing='(2.4-3.2]'                             -280.6616
+Standing='(3.2-inf)'                                     0
+Math Class='(-inf-0.857143]'                      -66.9857
+Math Class='(0.857143-1.714286]'                 -149.4712
+Math Class='(1.714286-2.571429]'                  175.1976
+Math Class='(2.571429-3.428571]'                  -16.1646
+Math Class='(3.428571-4.285714]'                   47.8664
+Math Class='(4.285714-5.142857]'                 -360.0339
+Math Class='(5.142857-inf)'                        90.7442
+415 Final Grade                                  4931.5883
+Q Diff                                           -195.3605
+P Diff                                              104.84
+L Diff                                            256.9639
+R Diff                                            253.2837
+Semester='(-inf-0.75]'                            124.4099
+Semester='(0.75-1.5]'                            -107.6864
+Semester='(1.5-2.25]'                            -245.3404
+Semester='(2.25-inf)'                             231.3657
+Intercept                                       -4190.3351
+
+
+Odds Ratios...
+                                                     Class
+Variable                                      '(-inf-0.5]'
+==========================================================
+Q Avg                                                    0
+Q Min                                 6.24651078174918E204
+Q Max                                             Infinity
+Q % Zeros                                         Infinity
+Q % below 70%                        1.0288688135795635E33
+P Avg                                                    0
+P Min                                                    0
+P Max                                             Infinity
+P % Zeros                            4.077662287928386E124
+P % below 70%                                            0
+PRE Avg                                                  0
+PRE Min                                                  0
+PRE Max                                                  0
+PRE % Zeros                                              0
+PRE % below 70%                                          0
+L Avg                                                    0
+L Min                                 1.126359320389024E13
+L Max                                             Infinity
+L % Zeros                                                0
+L % below 70%                                            0
+R Avg                                             Infinity
+R Min                                                    0
+R % Zeros                                         Infinity
+R % below 70%                                            0
+OLE Avg                                           Infinity
+OLE Min                                                  0
+OLE Max                                                  0
+Exam Avg                                                 0
+Exam Min                                                 0
+Exam Max                             3.719189484036215E304
+Male_1                                                   0
+Female_1                                                 0
+CS Major_1                                               0
+ECE major_1                          1.981728257923174E220
+Standing='(-inf-0.8]'                                    0
+Standing='(0.8-1.6]'                 8.7869278220849568E16
+Standing='(1.6-2.4]'                  1.368597453018467E39
+Standing='(2.4-3.2]'                                     0
+Standing='(3.2-inf)'                                     1
+Math Class='(-inf-0.857143]'                             0
+Math Class='(0.857143-1.714286]'                         0
+Math Class='(1.714286-2.571429]'     1.2228065909931341E76
+Math Class='(2.571429-3.428571]'                         0
+Math Class='(3.428571-4.285714]'      6.139105505293413E20
+Math Class='(4.285714-5.142857]'                         0
+Math Class='(5.142857-inf)'          2.5685298926468847E39
+415 Final Grade                                   Infinity
+Q Diff                                                   0
+P Diff                                3.399665953211522E45
+L Diff                              3.9629559925932993E111
+R Diff                               9.993601807451943E109
+Semester='(-inf-0.75]'               1.0727955148917026E54
+Semester='(0.75-1.5]'                                    0
+Semester='(1.5-2.25]'                                    0
+Semester='(2.25-inf)'                3.025778897657648E100
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances         119              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0001
+Root mean squared error                  0.0007
+Relative absolute error                  0.0271 %
+Root relative squared error              0.1456 %
+Total Number of Instances              119     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        '(-inf-0.5]'
+                 1         0          1         1         1          1        '(0.5-inf)'
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 68  0 |  a = '(-inf-0.5]'
+  0 51 |  b = '(0.5-inf)'
+
+*********************************************************************************************
+
+Test mode:119-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                     Class
+Variable                                      '(-inf-0.5]'
+==========================================================
+Q Avg                                           -3229.8339
+Q Min                                             471.5594
+Q Max                                            1997.8307
+Q % Zeros                                        2029.0591
+Q % below 70%                                      76.0138
+P Avg                                           -4026.5249
+P Min                                             -15.4094
+P Max                                            6118.0509
+P % Zeros                                         286.9261
+P % below 70%                                    -542.4714
+PRE Avg                                          -433.9797
+PRE Min                                          -170.8151
+PRE Max                                           -97.8699
+PRE % Zeros                                      -300.4233
+PRE % below 70%                                  -372.9784
+L Avg                                           -3283.0373
+L Min                                              30.0526
+L Max                                            2028.3228
+L % Zeros                                        -923.3695
+L % below 70%                                   -2503.0424
+R Avg                                             917.7286
+R Min                                             -52.3971
+R % Zeros                                        2378.0093
+R % below 70%                                   -1363.3883
+OLE Avg                                          3294.4879
+OLE Min                                         -1203.0305
+OLE Max                                          -2483.364
+Exam Avg                                         -449.8467
+Exam Min                                         -868.3642
+Exam Max                                          701.2994
+Male_1                                           -555.1701
+Female_1                                         -308.3516
+CS Major_1                                        -22.4897
+ECE major_1                                       507.2527
+Standing='(-inf-0.8]'                             -52.3896
+Standing='(0.8-1.6]'                               39.0146
+Standing='(1.6-2.4]'                               90.1146
+Standing='(2.4-3.2]'                             -280.6616
+Standing='(3.2-inf)'                                     0
+Math Class='(-inf-0.857143]'                      -66.9857
+Math Class='(0.857143-1.714286]'                 -149.4712
+Math Class='(1.714286-2.571429]'                  175.1976
+Math Class='(2.571429-3.428571]'                  -16.1646
+Math Class='(3.428571-4.285714]'                   47.8664
+Math Class='(4.285714-5.142857]'                 -360.0339
+Math Class='(5.142857-inf)'                        90.7442
+415 Final Grade                                  4931.5883
+Q Diff                                           -195.3605
+P Diff                                              104.84
+L Diff                                            256.9639
+R Diff                                            253.2837
+Semester='(-inf-0.75]'                            124.4099
+Semester='(0.75-1.5]'                            -107.6864
+Semester='(1.5-2.25]'                            -245.3404
+Semester='(2.25-inf)'                             231.3657
+Intercept                                       -4190.3351
+
+
+Odds Ratios...
+                                                     Class
+Variable                                      '(-inf-0.5]'
+==========================================================
+Q Avg                                                    0
+Q Min                                 6.24651078174918E204
+Q Max                                             Infinity
+Q % Zeros                                         Infinity
+Q % below 70%                        1.0288688135795635E33
+P Avg                                                    0
+P Min                                                    0
+P Max                                             Infinity
+P % Zeros                            4.077662287928386E124
+P % below 70%                                            0
+PRE Avg                                                  0
+PRE Min                                                  0
+PRE Max                                                  0
+PRE % Zeros                                              0
+PRE % below 70%                                          0
+L Avg                                                    0
+L Min                                 1.126359320389024E13
+L Max                                             Infinity
+L % Zeros                                                0
+L % below 70%                                            0
+R Avg                                             Infinity
+R Min                                                    0
+R % Zeros                                         Infinity
+R % below 70%                                            0
+OLE Avg                                           Infinity
+OLE Min                                                  0
+OLE Max                                                  0
+Exam Avg                                                 0
+Exam Min                                                 0
+Exam Max                             3.719189484036215E304
+Male_1                                                   0
+Female_1                                                 0
+CS Major_1                                               0
+ECE major_1                          1.981728257923174E220
+Standing='(-inf-0.8]'                                    0
+Standing='(0.8-1.6]'                 8.7869278220849568E16
+Standing='(1.6-2.4]'                  1.368597453018467E39
+Standing='(2.4-3.2]'                                     0
+Standing='(3.2-inf)'                                     1
+Math Class='(-inf-0.857143]'                             0
+Math Class='(0.857143-1.714286]'                         0
+Math Class='(1.714286-2.571429]'     1.2228065909931341E76
+Math Class='(2.571429-3.428571]'                         0
+Math Class='(3.428571-4.285714]'      6.139105505293413E20
+Math Class='(4.285714-5.142857]'                         0
+Math Class='(5.142857-inf)'          2.5685298926468847E39
+415 Final Grade                                   Infinity
+Q Diff                                                   0
+P Diff                                3.399665953211522E45
+L Diff                              3.9629559925932993E111
+R Diff                               9.993601807451943E109
+Semester='(-inf-0.75]'               1.0727955148917026E54
+Semester='(0.75-1.5]'                                    0
+Semester='(1.5-2.25]'                                    0
+Semester='(2.25-inf)'                3.025778897657648E100
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          74               62.1849 %
+Incorrectly Classified Instances        45               37.8151 %
+Kappa statistic                          0.2336
+Mean absolute error                      0.3793
+Root mean squared error                  0.6144
+Relative absolute error                 76.7705 %
+Root relative squared error            123.1192 %
+Total Number of Instances              119     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.647     0.412      0.677     0.647     0.662      0.663    '(-inf-0.5]'
+                 0.588     0.353      0.556     0.588     0.571      0.682    '(0.5-inf)'
+Weighted Avg.    0.622     0.387      0.625     0.622     0.623      0.671
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 44 24 |  a = '(-inf-0.5]'
+ 21 30 |  b = '(0.5-inf)'

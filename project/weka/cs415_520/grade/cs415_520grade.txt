@@ -1,0 +1,154 @@
+520 Grade
+
+*********************************************************************************************
+
+Evaluation mode:evaluate on all training data
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 675
+	Merit of best subset found:    0.48 
+
+Attribute Subset Evaluator (supervised, Class (numeric): 44 520 Grade):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 4,6,8,9,10,18,22,29,30,31,40,43 : 12
+                     Q % Zeros
+                     P Avg
+                     P Max
+                     P % Zeros
+                     P % below 70%
+                     L Max
+                     R Min
+                     Exam Avg
+                     Exam Min
+                     Exam Max
+                     P Diff
+                     Semester
+
+*********************************************************************************************
+
+Evaluation mode:67-fold cross-validation
+
+=== Attribute selection 67 fold cross-validation seed: 1 ===
+
+number of folds (%)  attribute
+           0(  0 %)     1 Q Avg
+           0(  0 %)     2 Q Min
+           0(  0 %)     3 Q Max
+          66( 99 %)     4 Q % Zeros
+           0(  0 %)     5 Q % below 70%
+          67(100 %)     6 P Avg
+           0(  0 %)     7 P Min
+          67(100 %)     8 P Max
+          63( 94 %)     9 P % Zeros
+          47( 70 %)    10 P % below 70%
+           0(  0 %)    11 PRE Avg
+           2(  3 %)    12 PRE Min
+           1(  1 %)    13 PRE Max
+           2(  3 %)    14 PRE % Zeros
+           0(  0 %)    15 PRE % below 70%
+           1(  1 %)    16 L Avg
+           0(  0 %)    17 L Min
+          67(100 %)    18 L Max
+           0(  0 %)    19 L % Zeros
+           1(  1 %)    20 L % below 70%
+           1(  1 %)    21 R Avg
+          49( 73 %)    22 R Min
+           0(  0 %)    23 R Max
+           1(  1 %)    24 R % Zeros
+           0(  0 %)    25 R % below 70%
+           0(  0 %)    26 OLE Avg
+           0(  0 %)    27 OLE Min
+           0(  0 %)    28 OLE Max
+          56( 84 %)    29 Exam Avg
+          41( 61 %)    30 Exam Min
+          58( 87 %)    31 Exam Max
+           0(  0 %)    32 Male_1
+           0(  0 %)    33 Female_1
+           0(  0 %)    34 CS Major_1
+           2(  3 %)    35 ECE major_1
+           2(  3 %)    36 Standing
+           0(  0 %)    37 Math Class
+           7( 10 %)    38 415 Final Grade
+           0(  0 %)    39 Q Diff
+          59( 88 %)    40 P Diff
+           0(  0 %)    41 L Diff
+           1(  1 %)    42 R Diff
+          49( 73 %)    43 Semester
+
+*********************************************************************************************
+
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+520 Grade =
+
+      2.5334 * Q % below 70% +
+     -3.1157 * P Avg +
+     -7.5755 * R % Zeros +
+      8.176  * R % below 70% +
+      1.6053 * OLE Min +
+     -3.2701 * OLE Max +
+      1.0702 * Standing='(2.4-3.2]','(-inf-0.8]','(3.2-inf)' +
+      0.5021 * Math Class='(0.857143-1.714286]','(-inf-0.857143]','(4.285714-5.142857]' +
+     12.6098 * 415 Final Grade +
+      0.8198 * Semester='(1.5-2.25]' +
+     -5.4411
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correlation coefficient                  0.756 
+Mean absolute error                      0.5436
+Root mean squared error                  0.6997
+Relative absolute error                 62.3851 %
+Root relative squared error             65.4554 %
+Total Number of Instances               67     
+
+*********************************************************************************************
+
+Test mode:67-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Regression Model
+
+520 Grade =
+
+      2.5334 * Q % below 70% +
+     -3.1157 * P Avg +
+     -7.5755 * R % Zeros +
+      8.176  * R % below 70% +
+      1.6053 * OLE Min +
+     -3.2701 * OLE Max +
+      1.0702 * Standing='(2.4-3.2]','(-inf-0.8]','(3.2-inf)' +
+      0.5021 * Math Class='(0.857143-1.714286]','(-inf-0.857143]','(4.285714-5.142857]' +
+     12.6098 * 415 Final Grade +
+      0.8198 * Semester='(1.5-2.25]' +
+     -5.4411
+
+Time taken to build model: 0.03 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.1078
+Mean absolute error                      1.0336
+Root mean squared error                  1.4025
+Relative absolute error                116.8409 %
+Root relative squared error            129.2509 %
+Total Number of Instances               67    
+

@@ -1,0 +1,348 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Remove-R60-61,63,65-66-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    119
+Attributes:   60
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              CS Major=YES
+              CS Major=NO
+              ECE major=NO
+              ECE major=YES
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              Took 520
+Test mode:119-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                          Class
+Variable                                    YES
+===============================================
+Q Avg                                  625.1874
+Q Min                                 -114.8075
+Q Max                                 -133.3984
+Q % Zeros                             -356.6883
+Q % below 70%                          -28.8722
+P Avg                                  933.2996
+P Min                                   -8.4039
+P Max                                  -72.1587
+P % Zeros                              -44.3431
+P % below 70%                          117.1123
+PRE Avg                                 85.3525
+PRE Min                                 45.5881
+PRE Max                                  17.517
+PRE % Zeros                             49.5362
+PRE % below 70%                        104.0895
+L Avg                                  732.7498
+L Min                                   -6.0327
+L Max                                  -99.4417
+L % Zeros                              240.7422
+L % below 70%                          509.1825
+R Avg                                 -201.2304
+R Min                                    9.1476
+R % Zeros                             -429.4832
+R % below 70%                          217.1981
+OLE Avg                               -899.8395
+OLE Min                                315.5155
+OLE Max                                668.2028
+Exam Avg                               162.6942
+Exam Min                               248.9457
+Exam Max                              -181.9457
+Gender=MALE                             26.7003
+Gender=FEMALE                          -34.1533
+Gender=UNKNOWN                         -24.3241
+CS Major=YES                            -1.6034
+CS Major=NO                              1.6034
+ECE major=NO                            60.4772
+ECE major=YES                          -60.4772
+Standing=FR                              8.5558
+Standing=SO                              -3.793
+Standing=SR                            108.3105
+Standing=JR                             -23.822
+Math Class=MATH 425                     14.1256
+Math Class=UNKNOWN                      11.0049
+Math Class=MATH 418                    -27.0847
+Math Class=MATH 531                      0.3339
+Math Class=MATH 426                      -1.355
+Math Class=NONE                        -18.4737
+Math Class=MATH 302                   -177.5618
+415 Final Grade                      -1134.6624
+Q Diff                                  26.9347
+P Diff                                  -7.4441
+L Diff                                 -21.7292
+R Diff                                 -62.1635
+Semester=SEMESTER2007                  -51.4049
+Semester=SEMESTER2008                   40.4862
+Semester=SEMESTER2009                   64.5816
+Semester=2010.0                        -58.4267
+Intercept                             -973.9962
+
+
+Odds Ratios...
+                                          Class
+Variable                                    YES
+===============================================
+Q Avg                    3.2767530313074293E271
+Q Min                                         0
+Q Max                                         0
+Q % Zeros                                     0
+Q % below 70%                                 0
+P Avg                                  Infinity
+P Min                                    0.0002
+P Max                                         0
+P % Zeros                                     0
+P % below 70%              7.265003648531904E50
+PRE Avg                   1.1698395317036304E37
+PRE Min                    6.289940475055966E19
+PRE Max                           40505801.0769
+PRE % Zeros               3.2605591682577093E21
+PRE % below 70%           1.6051254182569934E45
+L Avg                                  Infinity
+L Min                                    0.0024
+L Max                                         0
+L % Zeros                 3.572875738266344E104
+L % below 70%            1.3650873744609555E221
+R Avg                                         0
+R Min                                 9392.0682
+R % Zeros                                     0
+R % below 70%             2.1278175001205298E94
+OLE Avg                                       0
+OLE Min                   1.063218891839787E137
+OLE Max                  1.5732783194940665E290
+Exam Avg                   4.541632147526056E70
+Exam Min                 1.3054384092986808E108
+Exam Max                                      0
+Gender=MALE               3.9426666739558875E11
+Gender=FEMALE                                 0
+Gender=UNKNOWN                                0
+CS Major=YES                             0.2012
+CS Major=NO                              4.9701
+ECE major=NO              1.8403265250643462E26
+ECE major=YES                                 0
+Standing=FR                           5196.6624
+Standing=SO                              0.0225
+Standing=SR               1.0930376064889566E47
+Standing=JR                                   0
+Math Class=MATH 425                 1363578.518
+Math Class=UNKNOWN                   60167.2338
+Math Class=MATH 418                           0
+Math Class=MATH 531                      1.3964
+Math Class=MATH 426                      0.2579
+Math Class=NONE                               0
+Math Class=MATH 302                           0
+415 Final Grade                               0
+Q Diff                     4.984132589863889E11
+P Diff                                   0.0006
+L Diff                                        0
+R Diff                                        0
+Semester=SEMESTER2007                         0
+Semester=SEMESTER2008     3.8277487047598381E17
+Semester=SEMESTER2009      1.115408236948384E28
+Semester=2010.0                               0
+
+
+Time taken to build model: 0.06 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *0.985  0.015
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0.001 *0.999
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *0.996  0.004
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *0.999  0.001
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *0.636  0.364
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0.372 *0.628
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *0.978  0.022
+     1       2:NO       2:NO          0.001 *0.999
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0.067 *0.933
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          73               61.3445 %
+Incorrectly Classified Instances        46               38.6555 %
+Kappa statistic                          0.2146
+Mean absolute error                      0.387 
+Root mean squared error                  0.6183
+Relative absolute error                 78.3417 %
+Root relative squared error            123.8986 %
+Total Number of Instances              119     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.569     0.353      0.547     0.569     0.558      0.649    YES
+                 0.647     0.431      0.667     0.647     0.657      0.643    NO
+Weighted Avg.    0.613     0.398      0.615     0.613     0.614      0.645
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 29 22 |  a = YES
+ 24 44 |  b = NO
+

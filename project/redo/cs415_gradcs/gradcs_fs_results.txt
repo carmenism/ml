@@ -1,0 +1,125 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval 
+Search:weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R60-65-weka.filters.unsupervised.attribute.Remove-R35-38
+Instances:    70
+Attributes:   56
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              Graduated with CS Degree
+Evaluation mode:70-fold cross-validation
+
+
+
+=== Attribute selection 70 fold cross-validation (stratified), seed: 1 ===
+
+number of folds (%)  attribute
+           0(  0 %)      1 Q Avg
+           0(  0 %)      2 Q Min
+           0(  0 %)      3 Q Max
+           0(  0 %)      4 Q % Zeros
+           0(  0 %)      5 Q % below 70%
+           0(  0 %)      6 P Avg
+           0(  0 %)      7 P Min
+           0(  0 %)      8 P Max
+           0(  0 %)      9 P % Zeros
+           0(  0 %)     10 P % below 70%
+           0(  0 %)     11 PRE Avg
+           0(  0 %)     12 PRE Min
+           0(  0 %)     13 PRE Max
+           0(  0 %)     14 PRE % Zeros
+           0(  0 %)     15 PRE % below 70%
+           0(  0 %)     16 L Avg
+           0(  0 %)     17 L Min
+           0(  0 %)     18 L Max
+           0(  0 %)     19 L % Zeros
+           0(  0 %)     20 L % below 70%
+           0(  0 %)     21 R Avg
+           0(  0 %)     22 R Min
+           0(  0 %)     23 R Max
+           1(  1 %)     24 R % Zeros
+           0(  0 %)     25 R % below 70%
+           0(  0 %)     26 OLE Avg
+           0(  0 %)     27 OLE Min
+          70(100 %)     28 OLE Max
+           1(  1 %)     29 Exam Avg
+          65( 93 %)     30 Exam Min
+          66( 94 %)     31 Exam Max
+           1(  1 %)     32 Gender=MALE
+           0(  0 %)     33 Gender=FEMALE
+          67( 96 %)     34 Gender=UNKNOWN
+           0(  0 %)     35 Standing=FR
+          68( 97 %)     36 Standing=SO
+           0(  0 %)     37 Standing=GR
+           0(  0 %)     38 Standing=SR
+           0(  0 %)     39 Standing=JR
+           0(  0 %)     40 Math Class=MATH 425
+           0(  0 %)     41 Math Class=UNKNOWN
+           0(  0 %)     42 Math Class=MATH 418
+           4(  6 %)     43 Math Class=MATH 531
+           0(  0 %)     44 Math Class=MATH 426
+           0(  0 %)     45 Math Class=NONE
+           0(  0 %)     46 Math Class=MATH 302
+           0(  0 %)     47 415 Final Grade
+           0(  0 %)     48 Q Diff
+           0(  0 %)     49 P Diff
+           0(  0 %)     50 L Diff
+           0(  0 %)     51 R Diff
+           0(  0 %)     52 Semester=SEMESTER2007
+           0(  0 %)     53 Semester=SEMESTER2008
+           0(  0 %)     54 Semester=SEMESTER2009
+           0(  0 %)     55 Semester=2010.0

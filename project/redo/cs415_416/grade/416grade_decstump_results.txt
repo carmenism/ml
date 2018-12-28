@@ -1,0 +1,252 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.DecisionStump 
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Remove-R62-66-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    157
+Attributes:   60
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              CS Major=YES
+              CS Major=NO
+              ECE major=NO
+              ECE major=YES
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              416 Grade
+Test mode:157-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+415 Final Grade <= 0.859353 : 0.39723404255319145
+415 Final Grade > 0.859353 : 0.8902777777777783
+415 Final Grade is missing : 0.5950796178343953
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error
+     1      1          0.889     -0.111
+     1      0          0.402      0.402
+     1      0.25       0.399      0.149
+     1      1          0.889     -0.111
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      0.668      0.394     -0.273
+     1      0.583      0.895      0.313
+     1      0.668      0.394     -0.273
+     1      0.918      0.89      -0.028
+     1      0.833      0.891      0.059
+     1      1          0.889     -0.111
+     1      0.918      0.392     -0.526
+     1      0.75       0.393     -0.357
+     1      0.918      0.89      -0.028
+     1      0.5        0.396     -0.104
+     1      0          0.402      0.402
+     1      0.918      0.89      -0.028
+     1      1          0.889     -0.111
+     1      0.833      0.891      0.059
+     1      1          0.889     -0.111
+     1      0          0.402      0.402
+     1      1          0.889     -0.111
+     1      1          0.889     -0.111
+     1      1          0.889     -0.111
+     1      0.668      0.394     -0.273
+     1      1          0.889     -0.111
+     1      0.333      0.858      0.525
+     1      0.918      0.89      -0.028
+     1      0.25       0.399      0.149
+     1      0.833      0.891      0.059
+     1      0.833      0.393     -0.44 
+     1      0.5        0.396     -0.104
+     1      0.833      0.891      0.059
+     1      0.418      0.397     -0.02 
+     1      0.5        0.396     -0.104
+     1      0.5        0.396     -0.104
+     1      0          0.402      0.402
+     1      0.918      0.89      -0.028
+     1      0          0.402      0.402
+     1      0.5        0.897      0.397
+     1      1          0.889     -0.111
+     1      0          0.402      0.402
+     1      0.583      0.395     -0.187
+     1      0.918      0.89      -0.028
+     1      0.583      0.895      0.313
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      0.833      0.891      0.059
+     1      0.75       0.893      0.143
+     1      1          0.889     -0.111
+     1      0.75       0.393     -0.357
+     1      0.75       0.393     -0.357
+     1      0.418      0.397     -0.02 
+     1      0.25       0.399      0.149
+     1      0.918      0.89      -0.028
+     1      0.668      0.394     -0.273
+     1      0.418      0.397     -0.02 
+     1      1          0.889     -0.111
+     1      0.918      0.89      -0.028
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      1          0.889     -0.111
+     1      0.75       0.893      0.143
+     1      1          0.889     -0.111
+     1      0.333      0.398      0.065
+     1      0.5        0.897      0.397
+     1      0.168      0.4        0.232
+     1      0.583      0.395     -0.187
+     1      0          0.402      0.402
+     1      0.918      0.392     -0.526
+     1      0.5        0.396     -0.104
+     1      0.333      0.398      0.065
+     1      0.75       0.893      0.143
+     1      0.668      0.394     -0.273
+     1      0.918      0.392     -0.526
+     1      0.333      0.398      0.065
+     1      0.25       0.399      0.149
+     1      0.168      0.4        0.232
+     1      1          0.889     -0.111
+     1      1          0.889     -0.111
+     1      0.168      0.4        0.232
+     1      0.333      0.398      0.065
+     1      0.583      0.395     -0.187
+     1      0          0.402      0.402
+     1      1          0.889     -0.111
+     1      0.668      0.394     -0.273
+     1      0.668      0.394     -0.273
+     1      0.833      0.891      0.059
+     1      0.333      0.398      0.065
+     1      0          0.402      0.402
+     1      0.418      0.397     -0.02 
+     1      0.918      0.89      -0.028
+     1      0.918      0.392     -0.526
+     1      0.418      0.397     -0.02 
+     1      0.833      0.393     -0.44 
+     1      0.75       0.393     -0.357
+     1      0.833      0.891      0.059
+     1      0.75       0.893      0.143
+     1      0.668      0.394     -0.273
+     1      0.5        0.396     -0.104
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      0.918      0.89      -0.028
+     1      0.333      0.398      0.065
+     1      0.583      0.89       0.308
+     1      1          0.889     -0.111
+     1      0.668      0.394     -0.273
+     1      0.668      0.394     -0.273
+     1      1          0.889     -0.111
+     1      0.5        0.396     -0.104
+     1      0.583      0.395     -0.187
+     1      0.418      0.397     -0.02 
+     1      0.25       0.399      0.149
+     1      1          0.889     -0.111
+     1      0.918      0.89      -0.028
+     1      0.583      0.395     -0.187
+     1      0.583      0.395     -0.187
+     1      1          0.889     -0.111
+     1      0.5        0.396     -0.104
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      1          0.889     -0.111
+     1      0.418      0.397     -0.02 
+     1      0.918      0.89      -0.028
+     1      0.583      0.395     -0.187
+     1      1          0.889     -0.111
+     1      0          0.402      0.402
+     1      0          0.402      0.402
+     1      1          0.889     -0.111
+     1      0.5        0.396     -0.104
+     1      0.75       0.893      0.143
+     1      0.668      0.894      0.226
+     1      0.75       0.393     -0.357
+     1      0.833      0.891      0.059
+     1      0.418      0.397     -0.02 
+     1      0.333      0.398      0.065
+     1      0.583      0.395     -0.187
+     1      0.168      0.881      0.713
+     1      0.918      0.89      -0.028
+     1      0.583      0.395     -0.187
+     1      1          0.889     -0.111
+     1      0.25       0.901      0.651
+     1      0.5        0.396     -0.104
+     1      0.5        0.396     -0.104
+     1      0.833      0.891      0.059
+     1      0          0.402      0.402
+     1      0.668      0.394     -0.273
+     1      1          0.889     -0.111
+     1      0.418      0.397     -0.02 
+     1      0.918      0.89      -0.028
+     1      0.918      0.89      -0.028
+     1      0.583      0.395     -0.187
+     1      0.668      0.394     -0.273
+     1      1          0.397     -0.603
+     1      1          0.889     -0.111
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6611
+Mean absolute error                      0.2006
+Root mean squared error                  0.2551
+Relative absolute error                 69.3238 %
+Root relative squared error             74.7687 %
+Total Number of Instances              157     
+

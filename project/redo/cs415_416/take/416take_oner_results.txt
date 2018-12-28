@@ -1,0 +1,461 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.OneR -B 6
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Remove-R61-66-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    346
+Attributes:   60
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              CS Major=YES
+              CS Major=NO
+              ECE major=NO
+              ECE major=YES
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              Took 416
+Test mode:346-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+415 Final Grade:
+	< 0.745282	-> NO
+	< 0.7652945	-> YES
+	< 0.7781595	-> NO
+	< 0.793551	-> YES
+	< 0.8059475	-> NO
+	< 0.830938	-> YES
+	< 0.838074	-> NO
+	< 0.8904685	-> YES
+	< 0.896759	-> NO
+	>= 0.896759	-> YES
+(266/346 instances correct)
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO       2:NO          0     *1    
+     1       2:NO      1:YES      +  *1      0    
+     1       2:NO       2:NO          0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES      1:YES         *1      0    
+     1      1:YES       2:NO      +   0     *1    
+     1      1:YES      1:YES         *1      0    
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         245               70.8092 %
+Incorrectly Classified Instances       101               29.1908 %
+Kappa statistic                          0.4152
+Mean absolute error                      0.2919
+Root mean squared error                  0.5403
+Relative absolute error                 58.7131 %
+Root relative squared error            108.2102 %
+Total Number of Instances              346     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.72      0.302      0.665     0.72      0.691      0.709    YES
+                 0.698     0.28       0.75      0.698     0.723      0.709    NO
+Weighted Avg.    0.708     0.29       0.711     0.708     0.709      0.709
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 113  44 |   a = YES
+  57 132 |   b = NO
+

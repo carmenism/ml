@@ -1,0 +1,233 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+Relation:     cs415all-redo-complete-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-N-R32-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R35-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R37-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R39-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R44-weka.filters.unsupervised.attribute.NominalToBinary-N-A-R56-weka.filters.unsupervised.attribute.Remove-R60-61,64-66-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    119
+Attributes:   60
+              Q Avg
+              Q Min
+              Q Max
+              Q % Zeros
+              Q % below 70%
+              P Avg
+              P Min
+              P Max
+              P % Zeros
+              P % below 70%
+              PRE Avg
+              PRE Min
+              PRE Max
+              PRE % Zeros
+              PRE % below 70%
+              L Avg
+              L Min
+              L Max
+              L % Zeros
+              L % below 70%
+              R Avg
+              R Min
+              R Max
+              R % Zeros
+              R % below 70%
+              OLE Avg
+              OLE Min
+              OLE Max
+              Exam Avg
+              Exam Min
+              Exam Max
+              Gender=MALE
+              Gender=FEMALE
+              Gender=UNKNOWN
+              CS Major=YES
+              CS Major=NO
+              ECE major=NO
+              ECE major=YES
+              Standing=FR
+              Standing=SO
+              Standing=GR
+              Standing=SR
+              Standing=JR
+              Math Class=MATH 425
+              Math Class=UNKNOWN
+              Math Class=MATH 418
+              Math Class=MATH 531
+              Math Class=MATH 426
+              Math Class=NONE
+              Math Class=MATH 302
+              415 Final Grade
+              Q Diff
+              P Diff
+              L Diff
+              R Diff
+              Semester=SEMESTER2007
+              Semester=SEMESTER2008
+              Semester=SEMESTER2009
+              Semester=2010.0
+              515 Grade
+Test mode:119-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+515 Grade =
+
+      0.7348 * Q Avg +
+     -0.4441 * Q % Zeros +
+      2.0785 * P Avg +
+      0.2006 * P Min +
+      1.6436 * P % Zeros +
+      0.4803 * P % below 70% +
+      0.458  * PRE Avg +
+      0.2954 * PRE % below 70% +
+      0.8298 * L % Zeros +
+     -1.934  * R Avg +
+      0.1141 * R Min +
+     -1.5675 * R % Zeros +
+     -0.6143 * OLE Avg +
+      0.2181 * OLE Min +
+      0.4984 * OLE Max +
+      0.1991 * Gender=UNKNOWN=f +
+      0.1596 * ECE major=NO=t +
+      0.1596 * ECE major=YES=f +
+      0.2037 * Standing=FR=t +
+     -0.1915 * Math Class=UNKNOWN=f +
+      0.325  * R Diff +
+     -1.4063
+
+Time taken to build model: 0.08 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error
+     1      0.5        0.715      0.215
+     1      0          0.263      0.263
+     1      0.5        0.39      -0.11 
+     1      0.918      0.719     -0.198
+     1      1          0.628     -0.372
+     1      1          0.897     -0.103
+     1      0.75       0.528     -0.222
+     1      0.25       0.683      0.433
+     1      0.75       0.606     -0.144
+     1      0.918      0.801     -0.116
+     1      0.918      0.841     -0.077
+     1      0.5        0.44      -0.06 
+     1      0.583      0.059     -0.523
+     1      0.583      0.517     -0.066
+     1      0.668      0.213     -0.455
+     1      0.5        0.894      0.394
+     1      0.418      0.107     -0.31 
+     1      0.668      0.589     -0.079
+     1      0.668      0.696      0.028
+     1      0.5        0.519      0.019
+     1      0.918      0.614     -0.303
+     1      0.333      0.427      0.095
+     1      0.5        0.668      0.168
+     1      1          0.793     -0.207
+     1      0.25       0.479      0.229
+     1      0.583      0.264     -0.319
+     1      0.75       0.754      0.004
+     1      0.918      0.375     -0.542
+     1      0.583      0.711      0.129
+     1      0.833      0.69      -0.142
+     1      0          0.311      0.311
+     1      0.668      0.741      0.074
+     1      0.5        0.226     -0.274
+     1      0.833      0.877      0.045
+     1      1          0.758     -0.242
+     1      0.75       0.707     -0.043
+     1      0.918      0.681     -0.236
+     1      0.5       -0.104     -0.604
+     1      0.75       0.629     -0.121
+     1      0.168      0.118     -0.05 
+     1      0.668      0.458     -0.209
+     1      0.418      0.173     -0.245
+     1      0.918      0.708     -0.21 
+     1      0.25       0.457      0.207
+     1      0          0.68       0.68 
+     1      0         -0.028     -0.028
+     1      0.75       0.711     -0.039
+     1      0.25       0.102     -0.148
+     1      0          0.55       0.55 
+     1      0.168      0.404      0.237
+     1      0.75       0.678     -0.072
+     1      0.418      0.385     -0.033
+     1      0.333      0.443      0.111
+     1      0          0.908      0.908
+     1      0.25       0.265      0.015
+     1      0.25       0.579      0.329
+     1      0.418      0.868      0.45 
+     1      0          0.414      0.414
+     1      1          0.875     -0.125
+     1      0.418      0.247     -0.171
+     1      0.5        0.703      0.203
+     1      0.75       1.054      0.304
+     1      1          1.1        0.1  
+     1      0.668      0.697      0.029
+     1      0.668      0.833      0.166
+     1      0.75       0.821      0.071
+     1      0.418      0.425      0.007
+     1      0.333      0.436      0.104
+     1      0.918      0.891     -0.027
+     1      0          0.237      0.237
+     1      0.75       0.768      0.018
+     1      0.583      0.78       0.198
+     1      0.75       0.832      0.082
+     1      0.918      0.58      -0.338
+     1      0.25       0.234     -0.016
+     1      0.918      0.468     -0.45 
+     1      1          1.226      0.226
+     1      0.25       0.605      0.355
+     1      0.833      1.047      0.215
+     1      0          0.223      0.223
+     1      0.418      0.541      0.124
+     1      1          1.135      0.135
+     1      0.918      0.066     -0.852
+     1      0.833      0.797     -0.035
+     1      0.75       0.482     -0.268
+     1      1          0.941     -0.059
+     1      0.75       0.678     -0.072
+     1      0.583      0.169     -0.414
+     1      0.25       0.604      0.354
+     1      0.75       0.384     -0.366
+     1      0.668      0.676      0.009
+     1      1          0.881     -0.119
+     1      0.833      0.628     -0.205
+     1      0.5        0.97       0.47 
+     1      0.583      0.456     -0.126
+     1      0          0.35       0.35 
+     1      0.333      0.243     -0.089
+     1      0.75       0.366     -0.384
+     1      0.418      0.503      0.085
+     1      0.75       0.818      0.068
+     1      0.25       0.578      0.328
+     1      0.668      0.786      0.118
+     1      0.25       0.476      0.226
+     1      0          0.205      0.205
+     1      0.75       0.7       -0.05 
+     1      0.668      0.604     -0.064
+     1      0.75       0.998      0.248
+     1      0.5       -0.174     -0.674
+     1      0.583      0.68       0.097
+     1      0.918      0.822     -0.096
+     1      0.918      0.753     -0.165
+     1      0.918      0.804     -0.113
+     1      0.918      0.802     -0.116
+     1      0.583      0.446     -0.136
+     1      0.418      0.434      0.017
+     1      1          0.919     -0.081
+     1      0          0.605      0.605
+     1      1          1.049      0.049
+     1      0.75       0.753      0.003
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5489
+Mean absolute error                      0.2088
+Root mean squared error                  0.2753
+Relative absolute error                 81.6507 %
+Root relative squared error             90.2204 %
+Total Number of Instances              119     
+
